@@ -1,0 +1,33 @@
+{
+  "name": "catcoin-token-contract",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "hardhat-compile": " npx hardhat compile",
+    "catcoin-test": " npx hardhat test ./test/catcoin.js",
+    "testnet": " npx hardhat run --network testnet ./scripts/deploy.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OnlyDragon0403/catcoin-token-contract.git"
+  },
+  "author": "OnlyDragon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/OnlyDragon0403/catcoin-token-contract/issues"
+  },
+  "homepage": "https://github.com/OnlyDragon0403/catcoin-token-contract#readme",
+  "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.0.5",
+    "@nomiclabs/hardhat-waffle": "^2.0.3",
+    "chai": "^4.3.6",
+    "ethereum-waffle": "^3.4.4",
+    "ethers": "^5.6.4",
+    "hardhat": "^2.9.3"
+  },
+  "dependencies": {
+    "@nomiclabs/hardhat-etherscan": "^3.0.3"
+  }
+}
